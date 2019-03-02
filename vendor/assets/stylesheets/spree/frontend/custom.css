@@ -1,0 +1,67 @@
+/* all links */
+A {
+  color: #555;
+}
+
+A:hover {
+  color: #333;
+  text-decoration: none !important;
+}
+
+/* header */
+
+#spree-header {
+  background-image: linear-gradient(110deg,#27252d 0%,#43403e 100%);
+      padding-top: 0px;
+}
+
+#spree-header #header {
+    background: rgba(0, 0, 0, 0);
+}
+
+.btn-success {
+    color: #27252d;
+    background-color: #b39573;
+    border-color: #b39573;
+    border-width: 1px;
+}
+
+.btn-success:hover {
+    color: #27252d;
+    background-color: #90775b;
+    border-color: #90775b;
+    border-width: 1px;
+}
+
+#keywords {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#taxon {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.form-control:focus {
+    border-color: white;
+    box-shadow: none;
+}
+
+#taxon > option {
+  color: #333;
+}
+
+#taxon > option:hover {
+  background-color: #eee;
+}
+
+#spree-header #logo img {
+  max-width: 70%;
+}
+
+/* body */
+
+.panel-footer {
+    color: white;
+    background-color: #b39573;
+}
