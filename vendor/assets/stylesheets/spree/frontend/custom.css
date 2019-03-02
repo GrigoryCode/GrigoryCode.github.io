@@ -42,17 +42,25 @@ A:hover {
   color: white;
 }
 
-.form-control:focus {
-    border-color: white;
-    box-shadow: none;
+.form-control {
+  color: white;
 }
 
-#taxon > option {
+.form-control:focus {
+  border-color: white;
+  box-shadow: none;
+}
+
+/* #taxon > option {
   color: #333;
 }
 
 #taxon > option:hover {
   background-color: #eee;
+} */
+
+#taxon {
+  display: none;
 }
 
 #spree-header #logo img {
