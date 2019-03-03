@@ -1,10 +1,6 @@
 /* all links */
-A {
-  /* color: #555; */
-}
 
 A:hover {
-  color: #333;
   text-decoration: none !important;
 }
 
@@ -70,7 +66,15 @@ A:hover {
 
 /* body */
 
+/* product cards */
 .panel-footer {
-    color: white;
-    background-color: #43403e;
+  background-color: #b39573;
+}
+
+.panel-footer:hover {
+  background-color: #90775b;
+}
+
+.panel-footer.text-center > a > span {
+  color: #27252d;
 }
